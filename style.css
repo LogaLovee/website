@@ -1,0 +1,97 @@
+@media  only screen and (max-width: 700px){
+    .encabezado {
+        display: grid;
+        grid-template-columns: auto;
+        background:  url(https://i.pinimg.com/originals/52/f4/cc/52f4cc45b830ae1b161a1661d8fd460f.jpg) !important;;
+        color: black !important;
+
+
+    }
+    .encabezado img{
+        display: none !important;
+    }
+    }
+@media  only screen and (max-width: 700px){
+    .columns{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr) !important;;
+    }
+}
+@media  only screen and (max-width: 1200px){
+    h3{
+    background-size: 20px 20px !important;
+    padding: 30px !important;; 
+    display: flex !important;;
+    justify-content: start !important;;
+
+    }
+    }
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@100&display=swap');
+body {
+    font-family: Fira Sans;
+}
+:root{
+    --colorAzul: #1199D8;
+    --buttonColor: #FDBC02;
+    --middleColor: #DEE1E7;
+}
+.encabezado{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background: var(--colorAzul);
+    color:white;
+    padding: 20px;
+}
+.encabezado img{
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+}
+button{
+    background: var(--buttonColor);
+    border: none;
+    padding: 15px;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.middle{
+    background: var(--middleColor);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: center;
+}
+.middle p{
+    text-align: center;
+}
+
+.content h2{
+    color: var(--colorAzul);
+    display: flex;
+    justify-content: center;
+    
+}
+.columns{
+    display: grid;
+    grid-template-columns: repeat(3, 2fr);
+    gap: 35px;
+}
+.footer{
+    background: var(--colorAzul);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: center;
+}
+.footer{
+    text-align: center;
+}
+h3{
+    background: left bottom no-repeat url(https://w7.pngwing.com/pngs/669/539/png-transparent-logo-guessing-game-application-screenshot-discord-social-media-computer-icons-discord-icon-miscellaneous-blue-computer-wallpaper-thumbnail.png);
+    background-size: 100px 80px;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+}
