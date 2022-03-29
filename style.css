@@ -4,26 +4,25 @@
         grid-template-columns: auto;
         background:  url(https://i.pinimg.com/originals/52/f4/cc/52f4cc45b830ae1b161a1661d8fd460f.jpg) !important;;
         color: black !important;
-
-
     }
     .encabezado img{
         display: none !important;
     }
-    }
-@media  only screen and (max-width: 700px){
     .columns{
         display: grid;
         grid-template-columns: repeat(2, 1fr) !important;;
     }
-}
+    }
 @media  only screen and (max-width: 1200px){
     h3{
-    background-size: 20px 20px !important;
+    background-position: left 50px  !important;
+    background-size:  50px 50px !important;
     padding: 30px !important;; 
     display: flex !important;;
-    justify-content: start !important;;
-
+    justify-content: end !important;;
+    }
+    .columns h3{
+        padding-left: 16vw !important;
     }
     }
 @import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@100&display=swap');
